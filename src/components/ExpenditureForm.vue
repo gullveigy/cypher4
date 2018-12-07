@@ -131,7 +131,7 @@
   }
   .typo__p {
     width: 450px;
-    font-size: 5pt;
+    font-size: 15pt;
     margin-top: 5px;
   }
   .btn1 {

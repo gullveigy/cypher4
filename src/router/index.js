@@ -5,8 +5,6 @@ import Expenditures from '@/components/Expenditures'
 import ContactUs from '@/components/ContactUs'
 import Expendi from '@/components/Expendi'
 import Edit from '@/components/Edit'
-import Login from '@/views/Login'
-import SignUp from '@/views/SignUp'
 
 
 Vue.use(Router)
@@ -14,7 +12,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: Home
     },
@@ -38,16 +36,6 @@ export default new Router({
       path: '/contact',
       name: 'ContactUs',
       component: ContactUs
-    },
-    {
-      path: '/login',
-      name: 'Login',
-      component: Login
-    },
-    {
-      path: '/sign-up',
-      name: 'SignUp',
-      component: SignUp
     }
   ]
 })

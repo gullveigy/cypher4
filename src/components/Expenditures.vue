@@ -1,21 +1,6 @@
 <template>
   <div class="hero">
-    <b-navbar toggleable="md" variant="dark" type="dark">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-collapse is-nav id="nav_collapse">
-        <b-navbar-nav>
-          <b-nav-item to="/home"><i class="fa fa-home" style="padding: 5px"> Home</i></b-nav-item>
-          <b-nav-item to="/expenditures"><i class="fa fa-list" style="padding: 5px"> Manage Expenditures</i></b-nav-item>
-          <b-nav-item to="/expendi"><i class="fa fa-money" style="padding: 5px"> Record Expenditure</i></b-nav-item>
-          <b-nav-item to="/chart"><i class="fa fa-line-chart" style="padding: 5px"> Chart</i></b-nav-item>
-        </b-navbar-nav>
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/login"><i class="fa fa-sign-in" style="padding: 5px"> Login </i></b-nav-item>
-          <i class="fa fa-pied-piper-alt fa-1x" style="padding: 5px; color: white;"></i>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-     <h3 class="vue-title"><i class="fa fa-list" style="padding: 3px"></i>{{messagetitle}}</h3>
+    <h3 class="vue-title"><i class="fa fa-list" style="padding: 3px"></i>{{messagetitle}}</h3>
      <div id="app1">
        <v-client-table :columns="columns" :data="expenditures" :options="options">
          <a slot="remove" slot-scope="props" class="fa fa-trash-o fa-2x" @click="deleteExpenditure(props.row._id)"></a>
@@ -126,22 +111,6 @@
     text-align: center;
     font-size: 45pt;
     margin-bottom: 10px;
-  }
-  .VueTables__child-row-toggler {
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
-    display: block;
-    margin: auto;
-    text-align: center;
-  }
-
-  .VueTables__child-row-toggler--closed::before {
-    content: "+";
-  }
-
-  .VueTables__child-row-toggler--open::before {
-    content: "-";
   }
   .vue-message {
     text-align: left;
