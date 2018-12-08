@@ -18,7 +18,7 @@
   export default {
     data () {
       return {
-        expenditure: {payment: 'Alipay',  type: 'Shopping',  amount: '', date: ''},
+        expenditure: {email: '1804094746@qq.com', payment: 'Alipay',  type: 'Shopping',  amount: '', date: ''},
         messagetitle: ' Record Expenditure '
       }
     },
