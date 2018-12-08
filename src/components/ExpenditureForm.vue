@@ -26,12 +26,12 @@
     </div>
     <div class="form-group" :class="{ 'form-group--error': $v.amount.$error }">
       <label class="form-control-label" name="amount">Amount (Enter a number)</label>
-      <input class="form__input" type="decimal" v-model.trim="amount"/>
+      <input class="form__input1" type="decimal" v-model.trim="amount"/>
     </div>
     <div class="error" v-if="!$v.amount.required">Amount is Required</div>
     <div class="form-group" :class="{ 'form-group--error': $v.date.$error }">
       <label class="form-control-label" name="date">Date (Select a Date)</label>
-      <input class="form__input" type="date" v-model.trim="date"/>
+      <input class="form__input2" type="date" v-model.trim="date"/>
     </div>
     <div class="error" v-if="!$v.date.required">Date is Required</div>
     <p>

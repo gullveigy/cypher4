@@ -18,7 +18,7 @@
   export default {
     data () {
       return {
-        expenditure: {payment: 'Alipay',  type: 'Shopping',  amount: 0.0, date: ''},
+        expenditure: {payment: 'Alipay',  type: 'Shopping',  amount: '', date: ''},
         messagetitle: ' Record Expenditure '
       }
     },
