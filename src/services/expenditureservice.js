@@ -2,7 +2,7 @@ import Api from '@/services/api'
 
 export default {
   fetchExpenditures () {
-    return Api().get('/expenditures')
+    return Api().get('/1804094746@qq.com/expenditures')
   },
   postExpenditure (expenditure) {
     return Api().post('/expenditures', expenditure,
