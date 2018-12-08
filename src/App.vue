@@ -7,7 +7,7 @@
         <b-navbar-nav>
           <b-nav-item to="/#"><i class="fa fa-home" style="padding: 5px"> Home</i></b-nav-item>
           <b-nav-item to="/expenditures"><i class="fa fa-list" style="padding: 5px"> Manage Expenditures</i></b-nav-item>
-          <b-nav-item data-test="donatebtn" to="/expendi"><i class="fa fa-money" style="padding: 5px"> Record Expenditure</i></b-nav-item>
+          <b-nav-item to="/expendi"><i class="fa fa-money" style="padding: 5px"> Record Expenditure</i></b-nav-item>
           <b-nav-item to="/chart"><i class="fa fa-globe" style="padding: 5px"> Chart</i></b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
