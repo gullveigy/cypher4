@@ -10,4 +10,4 @@ before_script:
 - npm run custom-build
 - cd dist && httpserver -p 8080 &
 script:
-- npx cypress run --spec cypress/integration/home-page.spec.js
+- npx cypress run --spec cypress/integration/expendi.spec.js
