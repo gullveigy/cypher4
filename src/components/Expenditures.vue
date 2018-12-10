@@ -11,7 +11,7 @@
 </template>
 
 <script>
-  import ExpenditureService from '@/services/ExpenditureService'
+  import ExpenditureService from '@/services/expenditureservice'
   import Vue from 'vue'
   import VueTables from 'vue-tables-2'
 

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import ExpenditureService from '@/services/ExpenditureService'
+  import ExpenditureService from '@/services/expenditureservice'
   import ExpenditureForm from '@/components/ExpenditureForm'
 
   export default {

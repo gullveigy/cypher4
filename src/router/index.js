@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home'
-import Expenditures from '@/components/expenditures'
-import ContactUs from '@/components/contactUs'
-import Expendi from '@/components/expendi'
-import Edit from '@/components/edit'
+import Home from '@/components/Home'
+import Expenditures from '@/components/Expenditures'
+import ContactUs from '@/components/ContactUs'
+import Expendi from '@/components/Expendi'
+import Edit from '@/components/Edit'
 
 
 Vue.use(Router)
